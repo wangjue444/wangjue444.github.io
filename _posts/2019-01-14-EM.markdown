@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "EM算法与转化时间预估"
+date:   2019-01-13 20:23:31 +0800
+categories: ML
+---
+
+# EM算法与转化时间预估
+## 1.EM算法
+### 1-1.EM算法目的
+简单的说是引入隐变量来求最大似然的一种方法。假设要求$$l(\theta) = \prod_{i=1}^{m}p(x_i;\theta)$$
+
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
+
+
+hahaha $\Gamma(z) = 3$
+hahaha $$\Gamma(z) = 3$$
+
