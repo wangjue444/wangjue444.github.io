@@ -22,6 +22,9 @@ $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
+
+$$ y(x_i) = f(x_i) + \epsilon(x_i) $$
+
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
