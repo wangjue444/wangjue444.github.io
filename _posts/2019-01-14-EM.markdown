@@ -8,7 +8,7 @@ categories: ML
 # EM算法与转化时间预估
 ## 1.EM算法
 ### 1-1.EM算法目的
-简单的说是引入隐变量来求最大似然的一种方法。假设要求似然函数$$l(\theta) = \prod_{i=1}^{m}p(x_i;\theta)$$的最大值。有时直接求解比较困难，但是在知道隐变量$$z$$的情况下求解比较容易。则问题可以转化为求最大似然$$l(\theta) = \sum_{i=1}^{m}\log_{p(x_i;\theta)} = \sum_{i=1}^{m}\log_{\sum_{z_i}p(x_i,z;\theta)}$$
+简单的说是引入隐变量来求最大似然的一种方法。假设要求似然函数$$l(\theta) = \prod_{i=1}^{m}p(x_i;\theta)$$的最大值。有时直接求解比较困难，但是在知道隐变量$$z$$的情况下求解比较容易。则问题可以转化为求最大似然$$l(\theta) = \sum_{i=1}^{m}\log{p(x_i;\theta)} = \sum_{i=1}^{m}\log{\sum_{z_i}p(x_i,z;\theta)}$$
 
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
