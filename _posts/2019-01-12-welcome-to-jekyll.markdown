@@ -1,34 +1,17 @@
 ---
 layout: post
-title:  "第一篇"
+title:  "一些问题备忘"
 date:   2019-01-12 17:23:31 +0800
 categories: ML
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-... a given wire happens to be carrying "$$\lvert 0\rangle$$."
-By that we mean that it's carrying the linear combination
-$$\begin{psmallmatrix} 1 \\ 0 \end{psmallmatrix}$$ ...
-
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-
-hahaha $\Gamma(z) = 3$
-hahaha $$\Gamma(z) = 3$$
+# 几个问题
+1.sigmoid梯度消失。
+2.神经网络初值
+3.优化器原理
+4.两个模型特征overlap会不会造成过拟合的问题
+5.线上线下指标对不齐原因
+6.deep&wide和纯deep比效果为什么好，如何用实验说明确实是记忆性与泛化性的原因。
+7.学习率，batchsize，正则化参数调整经验
+8.激活函数选择
 
