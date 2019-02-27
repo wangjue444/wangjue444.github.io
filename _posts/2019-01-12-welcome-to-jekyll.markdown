@@ -15,4 +15,9 @@ categories: ML
 7.学习率，batchsize，正则化参数调整经验
 8.激活函数选择
 9.deepFM缺点，神经元个数需保持一致，会造成很多信息冗余(桶形结构和锥形结构区别)
+10.pre-train
+11.embedding方式
+12.各种优化器原理
+13.语义相关性计算和query信息
+14.采样，预估值偏低，校正方法（目标函数角度考虑 facebook lr+gbdt paper）
 
